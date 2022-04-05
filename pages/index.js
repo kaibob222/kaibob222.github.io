@@ -1,3 +1,8 @@
 export default function HomePage() {
-  return <div className="asd">Hello mthrfk</div>;
+  return (
+    <>
+      <h1>Home</h1>
+      <Link href="/about">About page</Link>
+    </>
+  );
 }
